@@ -6,3 +6,11 @@ Product Information : [ThingWrox ThingWorx Industrial IoT](https://www.ptc.com/e
 
 Properties update as an example (HTTP PUT method)
 
+## In Action
+
+TBD
+
+
+## Related Posts
+
+- [Drag and Drop Edge Device Development with ThingWorx](https://community.ptc.com/t5/IoT-Tech-Tips/Drag-and-Drop-Edge-Device-Development-with-ThingWorx-Node-js-and/td-p/535127)
