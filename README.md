@@ -12,7 +12,7 @@
 
 **URL Pattern**
 
-Based on the terms provided above, the following URL pattern is used when communicating with ThingWorx:
+The following URL pattern is used when communicating with ThingWorx:
 
 ```<http/https:><host:port>/Thingworx/<entity collection>/<entity>/<characteristic collection>/<characteristic>?<query parameters>```
  
@@ -42,4 +42,4 @@ TBD
 
 - [ThingWrox Foundation](https://developer.thingworx.com/resources/downloads/foundation-trial-edition)
 - [ThingWorx REST API](http://support.ptc.com/cs/help/thingworx_hc/thingworx_6.0_hc/index.jspx?id=thingworx10&action=show)
-- [Drag and Drop Edge Device Development with ThingWorx](https://community.ptc.com/t5/IoT-Tech-Tips/Drag-and-Drop-Edge-Device-Development-with-ThingWorx-Node-js-and/td-p/535127) ( [node-red-node-thingrest](https://github.com/obiwan314/node-red-node-thingrest) :scream: I found `thingrest` node while I was experimenting function & http nodes with thingwrox foundation server. No dependancy is required with my example. )
+- [Drag and Drop Edge Device Development with ThingWorx](https://community.ptc.com/t5/IoT-Tech-Tips/Drag-and-Drop-Edge-Device-Development-with-ThingWorx-Node-js-and/td-p/535127) ( [node-red-node-thingrest](https://github.com/obiwan314/node-red-node-thingrest) :scream: I found `thingrest` node while I was experimenting function & http nodes with thingwrox foundation server. No dependancy is required with my example.)
