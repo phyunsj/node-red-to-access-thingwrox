@@ -87,7 +87,7 @@ var params = {
 var result = Resources["ContentLoaderFunctions"].**PostJSON(params)**;
 ```
 
-Node-RED executes an appropriate action based on the payload recevied by `http in` node. 
+Node-RED executes an appropriate action based on the payload recevied by `http in (POST /alerts)` node. 
 
 
 ## Related Posts
