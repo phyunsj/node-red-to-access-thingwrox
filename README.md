@@ -55,4 +55,6 @@ If the connection is down,
 
 - [ThingWrox Foundation](https://developer.thingworx.com/resources/downloads/foundation-trial-edition)
 - [ThingWorx REST API](http://support.ptc.com/cs/help/thingworx_hc/thingworx_6.0_hc/index.jspx?id=thingworx10&action=show)
+- [Fundamentals of IoT Development with ThingWorx](https://www.udemy.com/thingworx-fundamentals/)
+- [Create an Application Key for device authentication](https://developer.thingworx.com/en/resources/guides/create-application-key2)
 - [Drag and Drop Edge Device Development with ThingWorx](https://community.ptc.com/t5/IoT-Tech-Tips/Drag-and-Drop-Edge-Device-Development-with-ThingWorx-Node-js-and/td-p/535127) ( [node-red-node-thingrest](https://github.com/obiwan314/node-red-node-thingrest) :scream: I found `thingrest` node while I was experimenting function & http nodes with thingwrox foundation server. No dependancy is required with my example.)
