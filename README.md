@@ -84,7 +84,7 @@ var params = {
     url: "http://192.168.1.8:1880/alerts" /* STRING */,
     content: content /* STRING */,
 };
-var result = Resources["ContentLoaderFunctions"].**PostJSON(params)**;
+var result = Resources["ContentLoaderFunctions"].PostJSON(params);
 ```
 
 Node-RED executes an appropriate action based on the payload recevied by `http in (POST /alerts)` node. 
