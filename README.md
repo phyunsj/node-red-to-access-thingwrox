@@ -60,6 +60,30 @@ When an Alert condition is met, ThingWorx fires off an Alert. Alerts are written
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-history.png" width="800px"/>
 </p>
 
+## Alert Subscription
+
+Create a **Subscription** to the Alert so that you are automatically notified when an Alert is triggered.  
+
+<p align="center">
+<img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-postjson.png" width="800px"/>
+</p>
+
+```
+var headers = { 
+    "content-type": "application/json",
+    "Accept":"*/*"            
+};
+
+var content = "{ \"op\" : \"inc_temperature\" }";
+
+var params = { 
+    headers: headers,
+	url: "http://localhost:1880/alerts" /* STRING */,
+	content: content /* STRING */,
+};
+
+var result = Resources["ContentLoaderFunctions"].PostJSON(params);
+```
 
 ## Related Posts
 
