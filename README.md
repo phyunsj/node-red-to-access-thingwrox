@@ -32,11 +32,16 @@ newMsg.headers["appKey"] = '*********-4958-45db-9789-************';
  
 ## In Action
 
-TBD
+<p align="center">
+<img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/node-red-thingwrox-in-action.gif" width="600px"/>
+</p>
 
 ## Flow
 
-TBD
+<p align="center">
+<img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/node-red-thingwrox-flow.png" width="600px"/>
+</p>
+
 
 ## Related Posts
 
