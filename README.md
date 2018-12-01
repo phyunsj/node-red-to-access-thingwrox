@@ -68,8 +68,7 @@ Create a **Subscription** to the Alert so that you are automatically notified wh
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-postjson.png" width="800px"/>
 </p>
 
-
-From ThingWrox to an Edge Device (Node-RED) using HTTP REST API
+Send a message from ThingWrox to an Edge Device (Node-RED) using HTTP REST API wen an Alert is triggered.
 
 ```
 var headers = { 
