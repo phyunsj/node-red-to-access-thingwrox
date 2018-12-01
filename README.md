@@ -54,6 +54,8 @@ If the connection is down,
 
 ## Alert
 
+When an Alert condition is met, ThingWorx fires off an Alert. Alerts are written to the alert history file and can be viewed through the Alert Summary and Alert History Mashups. 
+
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-history.png" width="800px"/>
 </p>
