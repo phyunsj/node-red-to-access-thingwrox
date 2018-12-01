@@ -42,7 +42,7 @@ newMsg.headers["appKey"] = '*********-4958-45db-9789-************';
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/node-red-thingwrox-flow.png" width="800px"/>
 </p>
 
-If the connection is down,
+If the connection is down, a single queue will store all events upto `totalAllowedQueueSize(20)`.
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/node-red-thingwrox-flow-error.png" width="800px"/>
@@ -54,7 +54,7 @@ If the connection is down,
 
 ## Alert
 
-When an Alert condition is met, ThingWorx fires off an Alert. Alerts are written to the alert history file and can be viewed through the Alert Summary and Alert History Mashups. 
+When an alert condition is met, ThingWorx fires off an alert. Alerts are written to the alert history file and can be viewed through the **Alert Summary** and **Alert History** Mashups. 
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-history.png" width="800px"/>
@@ -62,13 +62,13 @@ When an Alert condition is met, ThingWorx fires off an Alert. Alerts are written
 
 ## Alert Subscription
 
-Create a **Subscription** to the Alert so that you are automatically notified when an Alert is triggered.  
+Create a **Subscription** to the Alert so that you are automatically notified when an alert is triggered.  
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-postjson.png" width="800px"/>
 </p>
 
-Send a message from ThingWrox to an Edge Device (Node-RED) using HTTP REST API wen an Alert is triggered.
+Send a message from ThingWrox to an Edge Device (Node-RED) using HTTP REST API when an alert is triggered.
 
 ```
 var headers = { 
