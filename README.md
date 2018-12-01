@@ -43,6 +43,7 @@ newMsg.headers["appKey"] = '*********-4958-45db-9789-************';
 </p>
 
 If the connection is down, a single queue will store all events upto `totalAllowedQueueSize(20)`.
+Once the connection is re-established, the oldest event will be sent first.
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/node-red-thingwrox-flow-error.png" width="800px"/>
