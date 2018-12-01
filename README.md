@@ -68,6 +68,9 @@ Create a **Subscription** to the Alert so that you are automatically notified wh
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-postjson.png" width="800px"/>
 </p>
 
+
+From ThingWrox to an Edge Device (Node-RED) using HTTP REST API
+
 ```
 var headers = { 
     "content-type": "application/json",
@@ -78,12 +81,14 @@ var content = "{ \"op\" : \"inc_temperature\" }";
 
 var params = { 
     headers: headers,
-	url: "http://localhost:1880/alerts" /* STRING */,
-	content: content /* STRING */,
+    url: "http://192.168.1.8:1880/alerts" /* STRING */,
+    content: content /* STRING */,
 };
-
-var result = Resources["ContentLoaderFunctions"].PostJSON(params);
+var result = Resources["ContentLoaderFunctions"].**PostJSON(params)**;
 ```
+
+Node-RED executes an appropriate action based on the payload recevied by `http in` node. 
+
 
 ## Related Posts
 
