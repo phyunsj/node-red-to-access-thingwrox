@@ -7,6 +7,12 @@
 
  >  :computer: Product Information : [ThingWrox ThingWorx Industrial IoT](https://www.ptc.com/en/products/iot/thingworx-platform?cl1=IoT_General_Google_CLC-cpc-ThingWorxBrandCampaign-33029&cmsrc=Google&cid=7012A000001UvT4QAK&elqCampaignId=9998&gclid=EAIaIQobChMIztXeu_T83gIVk4TICh2AiQL3EAAYASAAEgJvXPD_BwE)
 
+## ThingWrox Properties
+
+- `Thing:Building12`
+- `Building12:# Temperature` an alert condition on `<= 65` 
+- `Building12:# Humidity`
+- `Building12:Location` Building Number 
 
 ## Using REST API to modify ThingWrox Properties
 
@@ -69,7 +75,7 @@ Create a **Subscription** to the Alert so that you are automatically notified wh
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-postjson.png" width="800px"/>
 </p>
 
-Send a message from ThingWrox to an Edge Device (Node-RED) using HTTP REST API when an alert is triggered.
+Send a message from ThingWrox to Node-RED (Edge Device) using HTTP REST API when an alert is triggered.
 
 ```
 var headers = { 
@@ -87,7 +93,7 @@ var params = {
 var result = Resources["ContentLoaderFunctions"].PostJSON(params);
 ```
 
-Node-RED executes an appropriate action based on the payload recevied by `http in (POST /alerts)` node. 
+Node-RED executes an appropriate action based on the payload received by `http in` node. In this example, simply display `msg.payload`.
 
 
 ## Related Posts
