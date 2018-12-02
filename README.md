@@ -9,10 +9,10 @@
 
 ## ThingWrox Properties
 
-- `Thing:Building12`
-- `Building12:# Temperature` an alert condition on `<= 65` 
-- `Building12:# Humidity`
-- `Building12:Location` Building Number 
+- Thing:`Building12`
+- Building12:`# Temperature` an alert condition on `<= 65` 
+- Building12:`# Humidity`
+- Building12:`Location` Building Number 
 
 ## Using REST API to modify ThingWrox Properties
 
