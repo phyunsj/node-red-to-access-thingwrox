@@ -55,7 +55,7 @@ Once the connection is re-established, the oldest event will be sent first.
 
 ## Alert
 
-When an alert condition is met, ThingWorx fires off an alert. Alerts are written to the alert history file and can be viewed through the **Alert Summary** and **Alert History** Mashups. 
+When an alert condition ( `#Temperature <= 65` ) is met, ThingWorx fires off an alert. Alerts are written to the alert history file and can be viewed through the **Alert Summary** and **Alert History** Mashups. 
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-as-edge-device-to-thingwrox/blob/master/images/thingwrox-alert-history.png" width="800px"/>
